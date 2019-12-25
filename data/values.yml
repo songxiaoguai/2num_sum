@@ -1,0 +1,8 @@
+name: &data
+  name1: 1234
+  name2: 2345
+
+
+values:
+  <<: *data
+  name3: 3456
